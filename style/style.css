@@ -44,10 +44,15 @@ a {
     color: rgba(0, 0, 0, 1);
 }
 
+p:first-of-type {
+    color: rgba(56, 56, 56, 1);
+    margin: 0;
+    margin-bottom: 111px;
+}
+
 h1 {
     font: 48px/72px "Popins-Bold",serif;
     font-weight: 700;
-    text-align: left;
 }
 
 h2 {
@@ -71,7 +76,7 @@ span {
     padding: 10px;
 }
 
-.text-Lorem {
+p:first-of-type {
     color: rgba(56, 56, 56, 1);
     margin: 0;
     margin-bottom: 111px;
@@ -170,7 +175,7 @@ span {
     margin-left: 78px;
 }
 
-.PortFolio>.container-PortFolio >h1 {
+.PortFolio>.container-PortFolio > h1 {
     margin-top: 5px;
     margin-bottom: 21px;
 }
@@ -203,12 +208,35 @@ span {
 
 .About_me {
     display: flex;
+    width: 1440px;
+    height: 910px;
+    background: rgba(67, 186, 253, 0.06);
+    margin-top: 201px;
+    margin-bottom: 301px;
 }
 
 .container-About {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    width: 540px;
+    flex-basis: 340px;
+    margin-top: 206px;
+    margin-left: 46px;
+}
+
+.container-About > h1 {
+    letter-spacing: 0.3em;
+    margin: 0;
+    color: rgba(14, 5, 120, 1);
+}
+
+
+.img-about {
+    width: 925px;
+    height: 925px;
+    margin-top: 1051px;
+    margin-left: 80px;
+    margin-top: 0;
 }
 
 
