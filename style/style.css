@@ -44,11 +44,6 @@ a {
     color: rgba(0, 0, 0, 1);
 }
 
-p:first-of-type {
-    color: rgba(56, 56, 56, 1);
-    margin: 0;
-    margin-bottom: 111px;
-}
 
 h1 {
     font: 48px/72px "Popins-Bold",serif;
@@ -81,7 +76,7 @@ span {
     padding: 10px;
 }
 
-p:first-of-type {
+.Lorem{
     color: rgba(56, 56, 56, 1);
     margin: 0;
     margin-bottom: 111px;
@@ -245,5 +240,13 @@ p:first-of-type {
     margin-top: 0;
 }
 
+.container-projecs {
+    display: flex;
+    flex-direction: column;
+}
 
-   
+.picture-pojecs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
