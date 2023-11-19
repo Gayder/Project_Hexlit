@@ -56,6 +56,11 @@ h1 {
 }
 
 h2 {
+    font: 48px/72px "Popins-Bold",serif;
+    font-weight: 700;
+}
+
+h3 {
     font: 30px/45px "Popins",serif;
     font-weight: 400;
     letter-spacing: 0em;
@@ -88,7 +93,6 @@ p:first-of-type {
 
 .header-logo {
     color: rgba(14, 5, 120, 1);
-
 }
 
 .container-header {
@@ -141,8 +145,9 @@ p:first-of-type {
 
 }
 
-.btn-hire a {
-    color: rgba(255, 255, 255, 1);
+.btn-hire:hover {
+    cursor: pointer;
+    color: black;
 }
 
 .btn-project {
@@ -155,6 +160,7 @@ p:first-of-type {
     border-radius: 10px;
     border: 2px solid rgba(32, 0, 231, 1);
     background: rgba(32, 0, 231, 0.04);
+    color: rgba(32, 0, 231, 1);
     box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
     width: 246px;
     height: 72px;
@@ -162,9 +168,9 @@ p:first-of-type {
 
 }
 
-.btn-project a {
-    color: rgba(32, 0, 231, 1);
-
+.btn-project:hover {
+    cursor: pointer;
+    color: black;
 }
 
 .PortFolio {
@@ -175,7 +181,7 @@ p:first-of-type {
     margin-left: 78px;
 }
 
-.PortFolio>.container-PortFolio > h1 {
+.PortFolio>.container-PortFolio > h2 {
     margin-top: 5px;
     margin-bottom: 21px;
 }
@@ -224,7 +230,7 @@ p:first-of-type {
     margin-left: 46px;
 }
 
-.container-About > h1 {
+.container-About > h2 {
     letter-spacing: 0.3em;
     margin: 0;
     color: rgba(14, 5, 120, 1);
