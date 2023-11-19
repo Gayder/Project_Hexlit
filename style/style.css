@@ -243,10 +243,34 @@ span {
 .container-projecs {
     display: flex;
     flex-direction: column;
+    width: 1440px;
+    height: 910px;
+    background: #FFD69633;
 }
 
+.description-images {
+    margin: 35px 0 46px 0;
+}
+
+.description-images * {
+    text-align: center;
+    margin: 0;
+}
+
+.description-images > h2 {
+    color: #3B1FEA;
+}
+
+
 .picture-pojecs {
+    width: 80vw;
+    height: 100vh;
+    margin-left: 140px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: row wrap;  
+    justify-content: space-evenly;
+}
+
+.item-img {
+    margin-right: 70px;
 }
