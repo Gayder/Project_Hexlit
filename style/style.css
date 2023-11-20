@@ -45,16 +45,6 @@ a {
 
 }
 
-footer > p:last-of-type {
-    font-family: "Jost";
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 46px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-
 h1 {
     font: 48px/72px "Popins-Bold",serif;
     font-weight: 700;
@@ -74,7 +64,6 @@ h3 {
     height: 45px;
     margin: 0;
     padding: 0;
-
 }
 
 span {
@@ -114,6 +103,7 @@ label {
 
 .header-logo {
     color: rgba(14, 5, 120, 1);
+    mix-blend-mode: darken;
 }
 
 .container-header {
@@ -235,7 +225,7 @@ label {
 
 .About_me {
     display: flex;
-    width: 1440px;
+    width: 100vw;
     height: 910px;
     background: rgba(67, 186, 253, 0.06);
     margin-top: 201px;
@@ -268,22 +258,22 @@ label {
 .container-projecs {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100vw;
     height: 910px;
     background: #FFD69633;
     margin-bottom: 272px;
 }
 
-.description-images {
+.header-projecs {
     margin: 35px 0 46px 0;
 }
 
-.description-images * {
+.header-projecs * {
     text-align: center;
     margin: 0;
 }
 
-.description-images > h2 {
+.header-projecs > h2 {
     color: #3B1FEA;
 }
 
@@ -301,10 +291,11 @@ label {
     margin-right: 70px;
 }
 
-.container-contact {
-    width: 1440px;
+.section-contact {
+    width: 100vw;
     height: 1316px;
     background-color: #43BAFD0F;
+    margin-bottom: 208px;
 }
 
 .email {
@@ -374,5 +365,92 @@ label {
     margin-left: 518px;
 }
     
+.footer {
+    width: 1440px;
+    height: 809px;
+    background-color: #FFD69633;
+  
+}
+
+.footer-heading {
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    text-align: left;
+    color: #0E0578;
+    mix-blend-mode: darken;
+    margin-left: 73px;
+    margin-top: 132px;
+}
+
+.btn-email {
+    width: 323px;
+    height: 97px;
+    border-radius: 30px;
+    background: #000000;
+    color: #FFFFFF;
+    font: 31px/45px "Jost-Bold",serif;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+.btn-subscribe {
+    width: 178px;
+    height: 97px;
+    border-radius: 30px;
+    background: #F965FC;
+    color: #FFFFFF;
+    font: 31px/45px "Jost-Bold",serif;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    margin-left: 279px;
+}
+
+.container-foot-header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
 
 
+.ul > ul > h3 {
+    font-family: "Jost-Bold",serif;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ul > ul > li {
+    font-family: "Jost",serif;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.ul {
+    display: inline-flex;
+    width: 700px;
+    row-gap: 30px;
+}
+
+.ul > ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.container-foot-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
