@@ -222,7 +222,7 @@ label {
 
 .About_me {
     display: flex;
-    width: 1440px;
+    width: 1440px;;
     height: 910px;
     background: rgba(67, 186, 253, 0.06);
     margin-top: 201px;
@@ -464,13 +464,13 @@ label {
     width: 639px;
     height: 46px;
 }
+
 .container-footer-img {
     display: flex;
     justify-content: space-between;
     margin-top: 56px;
     margin-left: 46px;
 }
-
 
 .img-social {
     display: flex;
