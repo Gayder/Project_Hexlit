@@ -327,6 +327,10 @@ label {
     cursor: pointer;
 }
 
+.btn-contact:hover {
+    color: greenyellow;
+}
+
 .contact-me {
     width: 535px;
     height: 96px;
@@ -394,6 +398,10 @@ label {
     margin-left: 26px; 
 }
 
+.btn-email:hover {
+    color: yellow;
+}
+
 .btn-subscribe {
     width: 178px;
     height: 97px;
@@ -409,13 +417,8 @@ label {
     margin-left: 279px;
 }
 
-.ul > ul > h3 {
-    font-family: "Jost-Bold",serif;
-    font-size: 31px;
-    font-weight: 700;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
+.btn-subscribe:hover {
+    color: yellow;
 }
 
 .ul * {
@@ -429,6 +432,15 @@ label {
     width: 230px;
     margin: 0;
     padding: 20px;
+}
+
+.footer-heeading-ul {
+    font-family: "Jost-Bold",serif;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .container-foot-header {
@@ -452,7 +464,7 @@ label {
     justify-content: space-evenly;
     height: 400px;
     width: 100%;
-    margin-top: 132px;
+    margin-top: 100px;
     margin-left: 120px;
 }
 
